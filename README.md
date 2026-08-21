@@ -52,6 +52,9 @@ python exp3/3A/univariate_analysis.py
 Or open the matching `.ipynb` in Jupyter. Scripts save their plots as PNG files
 into the same folder.
 
+Each sub-experiment also has a `<name>_op.md` holding the captured console output
+of its last run, so the results are readable without running anything.
+
 ## Note on experiment 5C
 
 The lab manual runs the time series analysis on a 768-record dataset with a seasonal
