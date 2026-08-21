@@ -25,12 +25,7 @@ def run_experiment_7():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     
     uci_path = os.path.join(base_dir, "uci_diabetes.csv")
-    if not os.path.exists(uci_path):
-        uci_path = os.path.join(base_dir, "uci_diabetes (3).csv")
-        
     pima_path = os.path.join(base_dir, "pima_diabetes.csv")
-    if not os.path.exists(pima_path):
-        pima_path = os.path.join(base_dir, "pima_diabetes (3).csv")
 
     # 1. Load the Datasets
     uci_diabetes = pd.read_csv(uci_path)

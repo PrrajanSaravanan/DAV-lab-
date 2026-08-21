@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 def run_experiment_5():
     # Determine base directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    dataset_path = os.path.join(base_dir, 'iris_dataset(2d).csv')
+    dataset_path = os.path.join(base_dir, 'iris_dataset.csv')
     
     # 1. Load dataset
     df = pd.read_csv(dataset_path)

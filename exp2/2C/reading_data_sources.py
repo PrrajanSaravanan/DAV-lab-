@@ -13,8 +13,8 @@ def run_experiment_4():
     # Determine base directory of script
     base_dir = os.path.dirname(os.path.abspath(__file__))
     
-    csv_file = os.path.join(base_dir, 'Google_data (2b.c1).csv')
-    excel_file = os.path.join(base_dir, 'data (2c2).xlsx')
+    csv_file = os.path.join(base_dir, 'google_data.csv')
+    excel_file = os.path.join(base_dir, 'sample_data.xlsx')
     web_url = 'https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv'
     
     # 1. Read data from CSV file
